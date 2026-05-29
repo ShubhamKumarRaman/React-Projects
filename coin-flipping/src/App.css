@@ -1,0 +1,62 @@
+.App {
+	width: min(520px, calc(100vw - 32px));
+	padding: 24px;
+	border-radius: 12px;
+	background: white;
+	border: 1px solid rgba(17, 24, 39, 0.08);
+}
+
+.FlipCoin {
+	display: grid;
+	gap: 16px;
+	text-align: center;
+}
+
+.FlipCoin-title {
+	margin: 0;
+	font-size: 24px;
+}
+
+.FlipCoin-coinArea {
+	min-height: 170px;
+	display: grid;
+	place-items: center;
+}
+
+.FlipCoin-placeholder {
+	font-size: 14px;
+	color: rgba(17, 24, 39, 0.7);
+}
+
+.Coin img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid rgba(17, 24, 39, 0.14);
+	background: white;
+}
+
+.FlipCoin-button {
+	justify-self: center;
+	padding: 10px 16px;
+	border-radius: 10px;
+	border: 1px solid rgba(17, 24, 39, 0.14);
+	background: #111827;
+	color: white;
+	cursor: pointer;
+}
+
+.FlipCoin-button:hover {
+	filter: brightness(1.05);
+}
+
+.FlipCoin-button:active {
+	transform: translateY(1px);
+}
+
+.FlipCoin-stats {
+	margin: 0;
+	font-size: 14px;
+	color: rgba(17, 24, 39, 0.8);
+}
+
